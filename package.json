@@ -1,0 +1,14 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "Programming Kata",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Chris Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.0.4",
+    "prettier": "1.9.2"
+  }
+}
