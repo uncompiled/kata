@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Programming Kata",
   "scripts": {
-    "test": "jest"
+    "test": "prettier --write '**/*.js' && jest"
   },
   "author": "Chris Nguyen",
   "license": "ISC",
