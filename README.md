@@ -1,5 +1,7 @@
 # kata
 
+[![Build Status](https://travis-ci.org/uncompiled/kata.svg?branch=master)](https://travis-ci.org/uncompiled/kata)
+
 ```
 ka·ta
 /kädə/
