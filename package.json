@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Programming Kata",
   "scripts": {
-    "test": "prettier --write '**/*.js' && jest"
+    "lint": "$(npm bin)/prettier --write '**/*.js'",
+    "test": "$(npm bin)/jest"
   },
   "author": "Chris Nguyen",
   "license": "ISC",
