@@ -1,4 +1,4 @@
-# Look-and-say Sequence (Morris Number)
+# [Look-and-say Sequence](https://en.wikipedia.org/wiki/Look-and-say_sequence)
 
 In mathematics, the look-and-say sequence is the sequence of integers
 beginning as follows:
@@ -19,7 +19,7 @@ in groups of the same digit.
 
 ## Thoughts
 
-To calculate the (n)th Morris Number, we can think of this as a recurrence
+To calculate the (n)th number, we can think of this as a recurrence
 because we are "saying" the previous (n-1)th number.
 
 One approach is to scan the digits and count the number of consecutive
