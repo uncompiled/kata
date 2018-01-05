@@ -12,3 +12,12 @@ It's a new year and I'm going to challenge myself to solve a random programming
 puzzle per day.
 
 This repository contains solutions to those puzzles.
+
+## Exercises
+
+| Day | Description                                                               |
+| ----| ------------------------------------------------------------------------- |
+| 1   | [Traverse a matrix in spiral order](arrays/spiralOrderMatrix)             |
+| 2   | [Look-and-say sequence](strings/lookAndSay)                               |
+| 3   | [Longest increasing subsequence](strings/longestIncreasingSubsequence)    |
+| 4   | [Levenshtein distance](strings/levenshteinDistance)                       |
