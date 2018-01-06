@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "Programming Kata",
   "scripts": {
-    "lint": "$(npm bin)/prettier --write '**/*.js'",
-    "test": "$(npm bin)/jest"
+    "lint": "$(npm bin)/prettier-standard '**/*.js'",
+    "test": "$(npm bin)/standard && $(npm bin)/jest"
+  },
+  "standard": {
+    "env": [ "jest" ]
   },
   "author": "Chris Nguyen",
   "license": "ISC",
   "devDependencies": {
     "jest": "^22.0.4",
-    "prettier": "1.9.2"
+    "prettier": "1.9.2",
+    "prettier-standard": "^8.0.0",
+    "standard": "^10.0.3"
   }
 }

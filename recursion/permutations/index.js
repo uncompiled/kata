@@ -3,28 +3,28 @@
  * @param {Object[]} array
  * @returns An array of permutations
  */
-function permutations(array) {
+function permutations (array) {
   // Base case
-  if (array.length < 2) return [array];
+  if (array.length < 2) return [array]
 
   // Otherwise, generate permutations...
-  let results = [];
+  let results = []
 
   for (let i = 0; i < array.length; i++) {
-    let item = array[i];
+    let item = array[i]
 
-    if (array.indexOf(item) != i) continue;
+    if (array.indexOf(item) !== i) continue
 
-    let before = array.slice(0, i);
-    let after = array.slice(i + 1, array.length);
-    let rest = before.concat(after);
+    let before = array.slice(0, i)
+    let after = array.slice(i + 1, array.length)
+    let rest = before.concat(after)
 
     for (let subsequence of permutations(rest)) {
-      results.push([item].concat(subsequence));
+      results.push([item].concat(subsequence))
     }
   }
 
-  return results;
+  return results
 }
 
-module.exports = permutations;
+module.exports = permutations
