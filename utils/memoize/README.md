@@ -9,7 +9,11 @@ to get faster executation at the cost of using more memory.
 ## Example
 
 The most common example use case for memoization is the textbook definition
-of the Fibonacci sequence: `f(n) = f(n-1) + f(n-2)`.
+of the Fibonacci sequence:
+
+```
+f(n) = f(n-1) + f(n-2)
+```
 
 This generates the following sequence of numbers:
 
