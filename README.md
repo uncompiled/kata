@@ -21,4 +21,5 @@ This repository contains solutions to those puzzles.
 | 2   | [Look-and-say sequence](strings/lookAndSay)                               |
 | 3   | [Longest increasing subsequence](strings/longestIncreasingSubsequence)    |
 | 4   | [Levenshtein distance](strings/levenshteinDistance)                       |
-| 5   | [Generating permutations](recursion/permutations)                         |
+| 5   | [Generate permutations](recursion/permutations)                           |
+| 6   | [Generate power set](arrays/powerset)                                     |
