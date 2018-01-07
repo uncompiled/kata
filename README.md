@@ -5,7 +5,7 @@
 ```
 ka·ta
 /kädə/
-noun: a system of individual training exercises for practitioners of karate and other martial arts 
+noun: a system of individual training exercises for practitioners of karate and other martial arts
 ```
 
 It's a new year and I'm going to challenge myself to solve a random programming
@@ -23,3 +23,4 @@ This repository contains solutions to those puzzles.
 | 4   | [Levenshtein distance](strings/levenshteinDistance)                       |
 | 5   | [Generate permutations](recursion/permutations)                           |
 | 6   | [Generate power set](arrays/powerset)                                     |
+| 7   | [Memoize pure functions](utils/memoize)                                   |
