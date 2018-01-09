@@ -24,3 +24,4 @@ This repository contains solutions to those puzzles.
 | 5   | [Generate permutations](recursion/permutations)                           |
 | 6   | [Generate power set](arrays/powerset)                                     |
 | 7   | [Memoize pure functions](utils/memoize)                                   |
+| 8   | [Brace matching](strings/braceMatching)                                   |
