@@ -4,7 +4,7 @@
   "description": "Programming Kata",
   "scripts": {
     "lint": "$(npm bin)/prettier-standard '**/*.js'",
-    "test": "$(npm bin)/standard && $(npm bin)/jest"
+    "test": "npm run lint && $(npm bin)/standard && $(npm bin)/jest"
   },
   "standard": {
     "env": [ "jest" ]
