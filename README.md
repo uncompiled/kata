@@ -26,3 +26,4 @@ This repository contains solutions to those puzzles.
 | 7   | [Memoize pure functions](utils/memoize)                                   |
 | 8   | [Brace matching](strings/braceMatching)                                   |
 | 9   | [Pascal's triangle](recursion/pascalTriangle)                             |
+| 10  | [Run length encoding](strings/runLengthEncoding)                          |
