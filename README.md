@@ -27,3 +27,4 @@ puzzle per day.
 | 10  | [Run length encoding](strings/runLengthEncoding)                          |
 | 11  | [Convolution (zip)](utils/zip)                                            |
 | 12  | [Phone number mnemonics](recursion/phoneMnemonics)                        |
+| 13  | [Linked List](utils/linkedList)                                           |
