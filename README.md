@@ -11,8 +11,6 @@ noun: a system of individual training exercises for practitioners of karate and 
 It's a new year and I'm going to challenge myself to solve a random programming
 puzzle per day.
 
-This repository contains solutions to those puzzles.
-
 ## Exercises
 
 | Day | Description                                                               |
@@ -28,3 +26,4 @@ This repository contains solutions to those puzzles.
 | 9   | [Pascal's triangle](recursion/pascalTriangle)                             |
 | 10  | [Run length encoding](strings/runLengthEncoding)                          |
 | 11  | [Convolution (zip)](utils/zip)                                            |
+| 12  | [Phone number mnemonics](recursion/phoneMnemonics)                        |
