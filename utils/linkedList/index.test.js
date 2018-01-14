@@ -52,8 +52,8 @@ test('push should append in order', () => {
   let array = list.toArray()
   expect(array).toEqual([1, 2, 3])
 
-  let reversed = list.toArray({ reverse: true })
-  expect(reversed).toEqual([3, 2, 1])
+  let reverse = list.toArray({ reverse: true })
+  expect(reverse).toEqual([3, 2, 1])
 })
 
 test('prepend should insert in reverse order', () => {
@@ -74,8 +74,8 @@ test('prepend should insert in reverse order', () => {
   let array = list.toArray()
   expect(array).toEqual([3, 2, 1])
 
-  let reversed = list.toArray({ reverse: true })
-  expect(reversed).toEqual([1, 2, 3])
+  let reverse = list.toArray({ reverse: true })
+  expect(reverse).toEqual([1, 2, 3])
 })
 
 test('pop list until empty', () => {
@@ -161,7 +161,7 @@ test('find method returns correct result for value search', () => {
   expect(list.find(27)).toBe(false)
 })
 
-test('promote method correctly moves specified node to the head', () => {
+test('promote method moves specified node to the head and preserves links', () => {
   let list = new LinkedList()
 
   let node1 = list.push(1)
@@ -169,14 +169,17 @@ test('promote method correctly moves specified node to the head', () => {
   let node3 = list.push(3)
 
   list.promote(node1)
-  expect(list.head()).toBe(1)
+  expect(list.head()).toEqual(1)
+  expect(list.toArray()).toEqual([1, 2, 3])
+  expect(list.toArray({ reverse: true })).toEqual([3, 2, 1])
 
   list.promote(node3)
-  expect(list.head()).toBe(3)
+  expect(list.head()).toEqual(3)
+  expect(list.toArray()).toEqual([3, 1, 2])
+  expect(list.toArray({ reverse: true })).toEqual([2, 1, 3])
 
   list.promote(node2)
-  expect(list.head()).toBe(2)
-
-  let array = list.toArray()
-  expect(array).toEqual([2, 3, 1])
+  expect(list.head()).toEqual(2)
+  expect(list.toArray()).toEqual([2, 3, 1])
+  expect(list.toArray({ reverse: true })).toEqual([1, 3, 2])
 })

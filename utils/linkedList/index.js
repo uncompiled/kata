@@ -180,12 +180,15 @@ class LinkedList {
     if (current === this._last) {
       previous.next = null
       this._last = previous
+
+      let oldHead = this._head
+      oldHead.prev = current
     } else {
       // it's in the middle of two nodes,
       // so join previous <-> next
       // and make current the new head
       previous.next = next
-      next.previous = previous
+      next.prev = previous
     }
 
     // set node to the head
