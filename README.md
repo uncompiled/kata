@@ -28,3 +28,6 @@ puzzle per day.
 | 11  | [Convolution (zip)](utils/zip)                                            |
 | 12  | [Phone number mnemonics](recursion/phoneMnemonics)                        |
 | 13  | [Linked List](utils/linkedList)                                           |
+| 14  | [LRU Cache](utils/lruCache)                                               |
+| 15  | [Light Bulbs](greedy/lightBulbs)                                          |
+| 16  | [Reverse Polish Notation](stacks/rpn)                                     |
