@@ -31,3 +31,4 @@ puzzle per day.
 | 14  | [LRU Cache](utils/lruCache)                                               |
 | 15  | [Light Bulbs](greedy/lightBulbs)                                          |
 | 16  | [Reverse Polish Notation](stacks/rpn)                                     |
+| 17  | [Min Stack](stacks/minStack)                                              |

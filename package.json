@@ -7,7 +7,9 @@
     "test": "npm run lint && $(npm bin)/standard && $(npm bin)/jest"
   },
   "standard": {
-    "env": [ "jest" ]
+    "env": [
+      "jest"
+    ]
   },
   "author": "Chris Nguyen",
   "license": "ISC",
