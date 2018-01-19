@@ -33,3 +33,4 @@ puzzle per day.
 | 16  | [Reverse Polish Notation](stacks/rpn)                                     |
 | 17  | [Min Stack](stacks/minStack)                                              |
 | 18  | [Binary Search](utils/binaryTree)                                         |
+| 19  | [Height of Binary Tree](utils/binaryTree)                                 |

@@ -41,6 +41,16 @@ class BinaryTree {
     return this
   }
 
+  height () {
+    function _height (node) {
+      if (!node) return 0
+
+      return Math.max(_height(node.left), _height(node.right)) + 1
+    }
+
+    return _height(this.root)
+  }
+
   toArray () {
     let array = []
 

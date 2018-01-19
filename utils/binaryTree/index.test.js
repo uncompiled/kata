@@ -5,6 +5,7 @@ test('new tree should be empty', () => {
   expect(tree.length).toEqual(0)
   expect(tree.isEmpty()).toBe(true)
   expect(tree.toArray()).toEqual([])
+  expect(tree.height()).toEqual(0)
 })
 
 test('insert one item', () => {
@@ -16,6 +17,7 @@ test('insert one item', () => {
   expect(tree.length).toEqual(1)
   expect(tree.isEmpty()).toBe(false)
   expect(tree.toArray()).toEqual([value])
+  expect(tree.height()).toEqual(1)
 })
 
 test('insert one item larger than root', () => {
@@ -32,6 +34,7 @@ test('insert one item larger than root', () => {
 
   expect(tree.root.left).toBeNull()
   expect(tree.root.right).toBeDefined()
+  expect(tree.height()).toEqual(2)
 })
 
 test('insert one item smaller than root', () => {
@@ -48,6 +51,7 @@ test('insert one item smaller than root', () => {
 
   expect(tree.root.left).toBeDefined()
   expect(tree.root.right).toBeNull()
+  expect(tree.height()).toEqual(2)
 })
 
 test('insert one item smaller and one item larger than root', () => {
@@ -64,6 +68,7 @@ test('insert one item smaller and one item larger than root', () => {
 
   expect(tree.root.left).toBeDefined()
   expect(tree.root.right).toBeDefined()
+  expect(tree.height()).toEqual(2)
 })
 
 test('insert multiple items', () => {
@@ -77,4 +82,5 @@ test('insert multiple items', () => {
   expect(tree.length).toEqual(input.length)
   expect(tree.isEmpty()).toBe(false)
   expect(tree.toArray()).toEqual(input.reverse())
+  expect(tree.height()).toEqual(10)
 })
