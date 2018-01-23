@@ -35,3 +35,4 @@ puzzle per day.
 | 18  | [Binary Search Tree](utils/binaryTree)                                    |
 | 19  | [Height of Binary Tree](utils/binaryTree)                                 |
 | 20  | [Identical Binary Trees](utils/binaryTree)                                |
+| 21  | [Check Whether Tree is Balanced](utils/binaryTree)                        |

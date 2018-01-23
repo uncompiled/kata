@@ -38,6 +38,32 @@ class BinaryTree {
     return _isIdentical(this.root, other.root)
   }
 
+  /**
+   * isBalanced checks the depth of the left and right
+   * subtrees to see if the difference is greater than 1
+   */
+  isBalanced () {
+    const _isBalanced = current => {
+      if (!current) return true
+
+      let diff = Math.abs(
+        this._height(current.left),
+        this._height(current.right)
+      )
+
+      let left = _isBalanced(current.left)
+      let right = _isBalanced(current.right)
+
+      if (diff <= 1 && left && right) {
+        return true
+      }
+
+      return false
+    }
+
+    return _isBalanced(this.root)
+  }
+
   insert (value) {
     let node = new TreeNode(value)
     this.length++
@@ -64,13 +90,13 @@ class BinaryTree {
   }
 
   height () {
-    function _height (node) {
-      if (!node) return 0
+    return this._height(this.root)
+  }
 
-      return Math.max(_height(node.left), _height(node.right)) + 1
-    }
-
-    return _height(this.root)
+  /** _height is an internal helper function to get the height of a subtree */
+  _height (node) {
+    if (!node) return 0
+    return Math.max(this._height(node.left), this._height(node.right)) + 1
   }
 
   toArray () {
