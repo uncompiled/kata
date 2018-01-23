@@ -36,3 +36,4 @@ puzzle per day.
 | 19  | [Height of Binary Tree](utils/binaryTree)                                 |
 | 20  | [Identical Binary Trees](utils/binaryTree)                                |
 | 21  | [Check Whether Tree is Balanced](utils/binaryTree)                        |
+| 22  | [DiffK](arrays/diffk)                                                     |
