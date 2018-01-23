@@ -32,5 +32,6 @@ puzzle per day.
 | 15  | [Light Bulbs](greedy/lightBulbs)                                          |
 | 16  | [Reverse Polish Notation](stacks/rpn)                                     |
 | 17  | [Min Stack](stacks/minStack)                                              |
-| 18  | [Binary Search](utils/binaryTree)                                         |
+| 18  | [Binary Search Tree](utils/binaryTree)                                    |
 | 19  | [Height of Binary Tree](utils/binaryTree)                                 |
+| 20  | [Identical Binary Trees](utils/binaryTree)                                |

@@ -16,6 +16,28 @@ class BinaryTree {
     return this.length === 0
   }
 
+  /**
+   * isIdentical compares every node of the tree for equality
+   * @param {BinaryTree} other tree to test for equality
+   * @returns {Boolean} true if the other tree is identical to this
+   */
+  isIdentical (other) {
+    function _isIdentical (myNode, yourNode) {
+      if (!myNode && !yourNode) return true
+
+      if (myNode && yourNode) {
+        let same = myNode.value === yourNode.value
+        let left = _isIdentical(myNode.left, yourNode.left)
+        let right = _isIdentical(myNode.right, yourNode.right)
+        return same && left && right
+      }
+
+      return false
+    }
+
+    return _isIdentical(this.root, other.root)
+  }
+
   insert (value) {
     let node = new TreeNode(value)
     this.length++

@@ -84,3 +84,34 @@ test('insert multiple items', () => {
   expect(tree.toArray()).toEqual(input.reverse())
   expect(tree.height()).toEqual(10)
 })
+
+test('trees should be identical', () => {
+  let a = new BinaryTree()
+  let b = new BinaryTree()
+  let input = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5]
+
+  for (let i = 0; i < input.length; i++) {
+    // Both trees will have identical shape and values
+    a.insert(input[i])
+    b.insert(input[i])
+  }
+
+  expect(a.isIdentical(b)).toBe(true)
+})
+
+test('trees should be different', () => {
+  let a = new BinaryTree()
+  let b = new BinaryTree()
+
+  expect(a.isIdentical(b)).toBe(true)
+
+  let input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  for (let i = 0; i < input.length; i++) {
+    // Based on insertion order, the shape
+    // of the tree will be different.
+    a.insert(input[i])
+    b.insert(input[input.length - i - 1])
+  }
+
+  expect(a.isIdentical(b)).toBe(false)
+})
