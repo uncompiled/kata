@@ -37,3 +37,4 @@ puzzle per day.
 | 20  | [Identical Binary Trees](utils/binaryTree)                                |
 | 21  | [Check Whether Tree is Balanced](utils/binaryTree)                        |
 | 22  | [DiffK](arrays/diffk)                                                     |
+| 23  | [Maximum Sum Subarray](arrays/maxSumSubarray)                             |
