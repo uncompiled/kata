@@ -38,3 +38,6 @@ puzzle per day.
 | 21  | [Check Whether Tree is Balanced](utils/binaryTree)                        |
 | 22  | [DiffK](arrays/diffk)                                                     |
 | 23  | [Maximum Sum Subarray](arrays/maxSumSubarray)                             |
+| 24  | [Sort By Color](arrays/sortByColor)                                       |
+| 25  | [Permutation Palindrome](strings/permutationPalindrome)                   |
+| 26  | [Graph](utils/graph)                                                      |
