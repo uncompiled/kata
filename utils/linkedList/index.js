@@ -69,9 +69,9 @@ class LinkedList {
   }
 
   /**
-   * shift removes the first item from the list and returns the value
+   * unshift removes the first item from the list and returns the value
    */
-  shift () {
+  unshift () {
     if (this._head) {
       let current = this._head
 
@@ -88,6 +88,16 @@ class LinkedList {
     }
 
     return undefined
+  }
+
+  /** queue inserts an element to the beginning of the list */
+  enqueue (value) {
+    return this.push(value, { prepend: true })
+  }
+
+  /** dequeue removes an element from the beginning of the list */
+  dequeue () {
+    return this.unshift()
   }
 
   /**

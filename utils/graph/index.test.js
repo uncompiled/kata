@@ -10,6 +10,7 @@ test('single node graph', () => {
   graph.add('A')
 
   expect(graph.numVertices()).toEqual(1)
+  expect(graph.bfs('A')).toEqual(['A'])
 })
 
 test('two node directed graph', () => {
@@ -23,6 +24,9 @@ test('two node directed graph', () => {
   // Default mode is directed graph, so A -> B
   expect(graph.getConnections('A')).toEqual(['B'])
   expect(graph.getConnections('B')).toEqual([])
+
+  expect(graph.bfs('A')).toEqual(['A', 'B'])
+  expect(graph.bfs('B')).toEqual(['B'])
 })
 
 test('two node undirected graph', () => {
@@ -36,4 +40,7 @@ test('two node undirected graph', () => {
   // In an undirected graph, the connection should be bi-directional
   expect(graph.getConnections('A')).toEqual(['B'])
   expect(graph.getConnections('B')).toEqual(['A'])
+
+  expect(graph.bfs('A')).toEqual(['A', 'B'])
+  expect(graph.bfs('B')).toEqual(['B', 'A'])
 })

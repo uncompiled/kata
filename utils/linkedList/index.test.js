@@ -104,21 +104,21 @@ test('pop list until empty', () => {
   expect(list.toArray()).toEqual(['a', 'b', 'c'])
 })
 
-test('shift list until empty', () => {
+test('dequeue list until empty', () => {
   let n = 10
   let list = new LinkedList()
 
-  expect(list.shift()).toBeUndefined()
+  expect(list.dequeue()).toBeUndefined()
 
   // generate a list with numbers
   for (let i = 0; i < n; i++) {
     list.push(i)
   }
 
-  // empty the list using the shift method
+  // empty the list using the dequeue method
   for (let i = n; i >= 1; i--) {
     expect(list.length).toEqual(i)
-    expect(list.shift()).toEqual(n - i)
+    expect(list.dequeue()).toEqual(n - i)
   }
 
   expect(list.isEmpty()).toBe(true)
