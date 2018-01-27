@@ -52,3 +52,7 @@ An undirected path can be implemented by creating two edges:
 There are two primary ways to implement a graph:
 - adjacency list
 - adjacency matrix
+
+There are two primary ways to traverse a graph:
+- [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search)
+- [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)

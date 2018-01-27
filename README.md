@@ -41,3 +41,5 @@ puzzle per day.
 | 24  | [Sort By Color](arrays/sortByColor)                                       |
 | 25  | [Permutation Palindrome](strings/permutationPalindrome)                   |
 | 26  | [Graph](utils/graph)                                                      |
+| 27  | [Breadth-First Search](utils/graph)                                       |
+| 28  | [Depth-First Search](utils/graph)                                         |

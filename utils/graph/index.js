@@ -1,7 +1,7 @@
 const UNDIRECTED = 'UNDIRECTED'
 const DIRECTED = 'DIRECTED'
 
-const Queue = require('../linkedList')
+const LinkedList = require('../linkedList')
 
 class Graph {
   constructor (type = DIRECTED) {
@@ -42,7 +42,7 @@ class Graph {
    * Breadth-first search
    */
   bfs (source) {
-    let q = new Queue()
+    let queue = new LinkedList()
     let visited = new Map()
     let visitOrder = []
 
@@ -52,12 +52,12 @@ class Graph {
     }
 
     // Enqueue the source vertex
-    q.enqueue(source)
+    queue.enqueue(source)
     visited[source] = true
 
     // Visit all unvisited nodes using queue
-    while (!q.isEmpty()) {
-      let vertex = q.dequeue()
+    while (!queue.isEmpty()) {
+      let vertex = queue.dequeue()
       let neighbors = this.adjacencyList.get(vertex)
 
       visitOrder.push(vertex)
@@ -65,12 +65,41 @@ class Graph {
       for (let neighbor of neighbors) {
         if (!visited[neighbor]) {
           visited[neighbor] = true
-          q.enqueue(neighbor)
+          queue.push(neighbor)
         }
       }
     }
 
     return visitOrder
+  }
+
+  /**
+   * Depth-first search
+   */
+  dfs (source) {
+    let visited = new Map()
+    let visitOrder = []
+
+    // Initialize visited map to false
+    let adjacencyList = this.adjacencyList
+    for (let vertex of adjacencyList.keys()) {
+      visited[vertex] = false
+    }
+
+    function _dfs (source) {
+      // Visit the current node
+      visited[source] = true
+      visitOrder.push(source)
+
+      let neighbors = adjacencyList.get(source)
+      for (let neighbor of neighbors) {
+        // Visit neighbors using call stack
+        if (!visited[neighbor]) _dfs(neighbor)
+      }
+      return visitOrder
+    }
+
+    return _dfs(source)
   }
 }
 
