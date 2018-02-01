@@ -43,3 +43,6 @@ puzzle per day.
 | 26  | [Graph](utils/graph)                                                      |
 | 27  | [Breadth-First Search](utils/graph)                                       |
 | 28  | [Depth-First Search](utils/graph)                                         |
+| 29  | [Single Number](arrays/singleNumber)                                      |
+| 30  | [Count Bits](math/countBits)                                              |
+| 31  | [Detect Cycle](linkedLists/detectCycle)                                   |
