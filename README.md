@@ -13,6 +13,9 @@ puzzle per day.
 
 ## Exercises
 
+<details>
+<summary>January</summary>
+
 | Day | Description                                                               |
 | ----| ------------------------------------------------------------------------- |
 | 1   | [Traverse a matrix in spiral order](arrays/spiralOrderMatrix)             |
@@ -46,3 +49,9 @@ puzzle per day.
 | 29  | [Single Number](arrays/singleNumber)                                      |
 | 30  | [Count Bits](math/countBits)                                              |
 | 31  | [Detect Cycle](linkedLists/detectCycle)                                   |
+</details>
+
+
+| Day | Description                                                               |
+| ----| ------------------------------------------------------------------------- |
+| 1   | [Greatest Common Divisor](math/gcd)                                       |
