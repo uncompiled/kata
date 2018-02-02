@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Programming Kata",
   "scripts": {
+    "date": "node $(npm prefix)/dates/dayOfYear",
     "lint": "$(npm bin)/prettier-standard '**/*.js'",
     "test": "npm run lint && $(npm bin)/standard && $(npm bin)/jest"
   },

@@ -55,3 +55,4 @@ puzzle per day.
 | Day | Description                                                               |
 | ----| ------------------------------------------------------------------------- |
 | 1   | [Greatest Common Divisor](math/gcd)                                       |
+| 2   | [Calculate the Day of the Year](dates/dayOfYear)                          |
