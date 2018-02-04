@@ -56,3 +56,4 @@ puzzle per day.
 | ----| ------------------------------------------------------------------------- |
 | 1   | [Greatest Common Divisor](math/gcd)                                       |
 | 2   | [Calculate the Day of the Year](dates/dayOfYear)                          |
+| 3   | [Longest Common Substring](strings/longestCommonSubstring)                |
