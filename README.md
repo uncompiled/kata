@@ -58,3 +58,4 @@ puzzle per day.
 | 2   | [Calculate the Day of the Year](dates/dayOfYear)                          |
 | 3   | [Longest Common Substring](strings/longestCommonSubstring)                |
 | 4   | [Longest Common Subsequence](strings/longestCommonSubsequence)            |
+| 5   | [Simplified Regular Expression Matching](strings/reMatch)                 |
