@@ -56,6 +56,8 @@ puzzle per day.
 | ----| ------------------------------------------------------------------------- |
 | 1   | [Greatest Common Divisor](math/gcd)                                       |
 | 2   | [Calculate the Day of the Year](dates/dayOfYear)                          |
-| 3   | [Longest Common Substring](strings/longestCommonSubstring)                |
-| 4   | [Longest Common Subsequence](strings/longestCommonSubsequence)            |
-| 5   | [Simplified Regular Expression Matching](strings/reMatch)                 |
+| 3   | [`kth` to Last Node in a Linked List](linkedLists/kthToLastNode)          |
+| 4   | [Longest Common Substring](strings/longestCommonSubstring)                |
+| 5   | [Longest Common Subsequence](strings/longestCommonSubsequence)            |
+| 6   | [Simplified Regular Expression Matching](strings/reMatch)                 |
+| 7   | [Prime Sieve](math/primeNumbers)                                          |
