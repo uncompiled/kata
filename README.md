@@ -64,3 +64,4 @@ puzzle per day.
 | 8   | [Tower of Hanoi](recursion/towerOfHanoi)                                  |
 | 9   | [Largest Rectangle in Histogram](stacks/largestRectangleInHistogram)      |
 | 10  | [Implement Queue Using Stacks](stacks/queueStack)                         |
+| 11  | [Pretty JSON](strings/prettyJSON)                                         |
