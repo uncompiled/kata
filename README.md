@@ -63,3 +63,4 @@ puzzle per day.
 | 7   | [Prime Sieve](math/primeNumbers)                                          |
 | 8   | [Tower of Hanoi](recursion/towerOfHanoi)                                  |
 | 9   | [Largest Rectangle in Histogram](stacks/largestRectangleInHistogram)      |
+| 10  | [Implement Queue Using Stacks](stacks/queueStack)                         |
