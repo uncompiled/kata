@@ -61,3 +61,5 @@ puzzle per day.
 | 5   | [Longest Common Subsequence](strings/longestCommonSubsequence)            |
 | 6   | [Simplified Regular Expression Matching](strings/reMatch)                 |
 | 7   | [Prime Sieve](math/primeNumbers)                                          |
+| 8   | [Tower of Hanoi](recursion/towerOfHanoi)                                  |
+| 9   | [Largest Rectangle in Histogram](stacks/largestRectangleInHistogram)      |
