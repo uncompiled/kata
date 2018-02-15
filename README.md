@@ -65,3 +65,4 @@ puzzle per day.
 | 9   | [Largest Rectangle in Histogram](stacks/largestRectangleInHistogram)      |
 | 10  | [Implement Queue Using Stacks](stacks/queueStack)                         |
 | 11  | [Pretty JSON](strings/prettyJSON)                                         |
+| 12  | [BST Iterator](trees/iterator)                                            |
