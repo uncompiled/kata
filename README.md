@@ -66,3 +66,4 @@ puzzle per day.
 | 10  | [Implement Queue Using Stacks](stacks/queueStack)                         |
 | 11  | [Pretty JSON](strings/prettyJSON)                                         |
 | 12  | [BST Iterator](trees/iterator)                                            |
+| 13  | [Buying and Selling Stocks I](arrays/sellingStocksI)                      |
