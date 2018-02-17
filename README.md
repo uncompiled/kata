@@ -69,3 +69,4 @@ puzzle per day.
 | 13  | [Buying and Selling Stocks I](arrays/sellingStocksI)                      |
 | 14  | [Buying and Selling Stocks II](arrays/sellingStocksII)                    |
 | 15  | [Buying and Selling Stocks III](arrays/sellingStocksIII)                  |
+| 16  | [Least Common Ancestor](trees/lca)                                        |
