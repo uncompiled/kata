@@ -14,7 +14,7 @@ function detectCycle (head) {
 
   while (slow && fast) {
     if (slow === fast) {
-      return slow.data
+      return slow.get()
     }
 
     slow = slow.next

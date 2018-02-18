@@ -9,17 +9,17 @@ test('example should work', () => {
   list.push(15)
   list.push(20)
 
-  expect(kthToLastNode(head, 1).data).toEqual(20)
-  expect(kthToLastNode(head, 2).data).toEqual(15)
-  expect(kthToLastNode(head, 3).data).toEqual(10)
-  expect(kthToLastNode(head, 4).data).toEqual(5)
+  expect(kthToLastNode(head, 1).get()).toEqual(20)
+  expect(kthToLastNode(head, 2).get()).toEqual(15)
+  expect(kthToLastNode(head, 3).get()).toEqual(10)
+  expect(kthToLastNode(head, 4).get()).toEqual(5)
 })
 
 test('invalid index returns undefined', () => {
   let list = new LinkedList()
   let head = list.push(5)
 
-  expect(kthToLastNode(head, 1).data).toEqual(5)
+  expect(kthToLastNode(head, 1).get()).toEqual(5)
   expect(kthToLastNode(head, 2)).toBeUndefined()
   expect(kthToLastNode(head, 3)).toBeUndefined()
   expect(kthToLastNode(head, 4)).toBeUndefined()

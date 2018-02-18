@@ -40,7 +40,7 @@ class LRUCache {
       this.length++
     } else {
       let listNode = this.cache.get(key)
-      let cacheNode = listNode.data
+      let cacheNode = listNode.get()
       cacheNode.value = value
       this.recency.promote(listNode)
     }
@@ -51,7 +51,7 @@ class LRUCache {
   get (key) {
     if (this.cache.has(key)) {
       let listNode = this.cache.get(key)
-      let cacheNode = listNode.data
+      let cacheNode = listNode.get()
       this.recency.promote(listNode)
       return cacheNode.value
     }
@@ -62,7 +62,7 @@ class LRUCache {
   json () {
     let response = {}
     this.cache.forEach((listNode, key) => {
-      let cacheNode = listNode.data
+      let cacheNode = listNode.get()
       response[key] = cacheNode.value
     })
     return response

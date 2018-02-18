@@ -1,18 +1,4 @@
-class ListNode {
-  constructor (data) {
-    this.data = data
-    this.prev = null
-    this.next = null
-  }
-
-  setPreviousTo (node) {
-    return (this.prev = node)
-  }
-
-  setNextTo (node) {
-    return (this.next = node)
-  }
-}
+const ListNode = require('./listNode')
 
 /**
  * LinkedList is a doubly-linked list implementation
@@ -30,11 +16,11 @@ class LinkedList {
   }
 
   head () {
-    return this._head.data
+    return this._head.value
   }
 
   last () {
-    return this._last.data
+    return this._last.value
   }
 
   /**
@@ -84,7 +70,7 @@ class LinkedList {
       }
 
       this.length--
-      return current.data
+      return current.value
     }
 
     return undefined
@@ -118,7 +104,7 @@ class LinkedList {
 
       this.length--
 
-      return current.data
+      return current.value
     }
 
     return undefined
@@ -142,7 +128,7 @@ class LinkedList {
 
     let current = reverse ? this._last : this._head
     while (current) {
-      results.push(current.data)
+      results.push(current.value)
       current = reverse ? current.prev : current.next
     }
 
@@ -161,7 +147,7 @@ class LinkedList {
       current = current.next
     }
 
-    return current.data
+    return current.value
   }
 
   /**
@@ -170,7 +156,7 @@ class LinkedList {
   find (value) {
     let current = this._head
     while (current) {
-      if (current.data === value) {
+      if (current.value === value) {
         return true
       }
       current = current.next
