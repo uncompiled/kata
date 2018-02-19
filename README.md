@@ -72,3 +72,4 @@ puzzle per day.
 | 16  | [Least Common Ancestor](trees/lca)                                        |
 | 17  | [Add Two Numbers as Linked Lists](linkedLists/addTwoNumbers)              |
 | 18  | [Reverse a Linked List Sublist](linkedLists/reverseSublist)               |
+| 19  | [Unique Paths in a Grid](arrays/uniquePaths)                              |
