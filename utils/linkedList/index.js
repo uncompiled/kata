@@ -193,6 +193,40 @@ class LinkedList {
     this._head = current
     return this
   }
+
+  reverseFrom (m, n) {
+    if (m <= 0 || m > this.length) {
+      throw Error('Start node must be an integer from 1 to list length')
+    }
+    if (n <= 0 || n > this.length) {
+      throw Error('End node must be an integer from 1 to list length')
+    }
+    if (m > n) throw Error('Start node cannot be greater than end node')
+
+    // dummy value doesn't matter, it's just a placeholder
+    let dummy = new ListNode(0)
+    dummy.next = this._head
+    let previous = dummy
+
+    // Iterate from 1 to m...
+    for (let i = 1; i < m; i++) {
+      previous = previous.next
+    }
+
+    let reversedPredecessor = previous
+    previous = previous.next
+    let current = previous.next
+
+    for (let i = m; i < n; i++) {
+      previous.next = current.next
+      current.next = reversedPredecessor.next
+      reversedPredecessor.next = current
+      current = previous.next
+    }
+
+    this._head = dummy.next
+    return this
+  }
 }
 
 module.exports = LinkedList
