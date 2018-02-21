@@ -74,3 +74,4 @@ puzzle per day.
 | 18  | [Reverse a Linked List Sublist](linkedLists/reverseSublist)               |
 | 19  | [Unique Paths in a Grid](arrays/uniquePaths)                              |
 | 20  | [Distinct Numbers in Window](arrays/distinctNumbers)                      |
+| 21  | [Longest Substring without Repeat](strings/longestSubstringWithoutRepeat) |
