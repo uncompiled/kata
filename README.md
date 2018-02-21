@@ -73,3 +73,4 @@ puzzle per day.
 | 17  | [Add Two Numbers as Linked Lists](linkedLists/addTwoNumbers)              |
 | 18  | [Reverse a Linked List Sublist](linkedLists/reverseSublist)               |
 | 19  | [Unique Paths in a Grid](arrays/uniquePaths)                              |
+| 20  | [Distinct Numbers in Window](arrays/distinctNumbers)                      |
