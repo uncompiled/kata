@@ -75,3 +75,4 @@ puzzle per day.
 | 19  | [Unique Paths in a Grid](arrays/uniquePaths)                              |
 | 20  | [Distinct Numbers in Window](arrays/distinctNumbers)                      |
 | 21  | [Longest Substring without Repeat](strings/longestSubstringWithoutRepeat) |
+| 22  | [Substring Concatenation](strings/substringConcatenation)                 |
