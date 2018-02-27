@@ -78,3 +78,4 @@ puzzle per day.
 | 22  | [Substring Concatenation](strings/substringConcatenation)                 |
 | 23  | [In-Place Shuffle](arrays/shuffle)                                        |
 | 24  | [Heap](utils/heap)                                                        |
+| 25  | [Anagram Checker](strings/anagramChecker)                                 |
