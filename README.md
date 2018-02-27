@@ -77,3 +77,4 @@ puzzle per day.
 | 21  | [Longest Substring without Repeat](strings/longestSubstringWithoutRepeat) |
 | 22  | [Substring Concatenation](strings/substringConcatenation)                 |
 | 23  | [In-Place Shuffle](arrays/shuffle)                                        |
+| 24  | [Heap](utils/heap)                                                        |
