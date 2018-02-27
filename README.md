@@ -80,3 +80,4 @@ puzzle per day.
 | 24  | [Heap](utils/heap)                                                        |
 | 25  | [Anagram Checker](strings/anagramChecker)                                 |
 | 26  | [Wave Array](arrays/waveArray)                                            |
+| 27  | [Rotate Matrix](arrays/rotateMatrix)                                      |
