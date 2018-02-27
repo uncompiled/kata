@@ -79,3 +79,4 @@ puzzle per day.
 | 23  | [In-Place Shuffle](arrays/shuffle)                                        |
 | 24  | [Heap](utils/heap)                                                        |
 | 25  | [Anagram Checker](strings/anagramChecker)                                 |
+| 26  | [Wave Array](arrays/waveArray)                                            |
