@@ -81,3 +81,4 @@ puzzle per day.
 | 25  | [Anagram Checker](strings/anagramChecker)                                 |
 | 26  | [Wave Array](arrays/waveArray)                                            |
 | 27  | [Rotate Matrix](arrays/rotateMatrix)                                      |
+| 28  | [Max Product of 3](arrays/maxProductOf3)                                  |
