@@ -13,9 +13,6 @@ puzzle per day.
 
 ## Exercises
 
-<details>
-<summary>January</summary>
-
 | Day | Description                                                               |
 | ----| ------------------------------------------------------------------------- |
 | 1   | [Traverse a matrix in spiral order](arrays/spiralOrderMatrix)             |
@@ -49,42 +46,32 @@ puzzle per day.
 | 29  | [Single Number](arrays/singleNumber)                                      |
 | 30  | [Count Bits](math/countBits)                                              |
 | 31  | [Detect Cycle](linkedLists/detectCycle)                                   |
-</details>
-
-<details>
-<summary>February</summary>
-| Day | Description                                                               |
-| ----| ------------------------------------------------------------------------- |
-| 1   | [Greatest Common Divisor](math/gcd)                                       |
-| 2   | [Calculate the Day of the Year](dates/dayOfYear)                          |
-| 3   | [`kth` to Last Node in a Linked List](linkedLists/kthToLastNode)          |
-| 4   | [Longest Common Substring](strings/longestCommonSubstring)                |
-| 5   | [Longest Common Subsequence](strings/longestCommonSubsequence)            |
-| 6   | [Simplified Regular Expression Matching](strings/reMatch)                 |
-| 7   | [Prime Sieve](math/primeNumbers)                                          |
-| 8   | [Tower of Hanoi](recursion/towerOfHanoi)                                  |
-| 9   | [Largest Rectangle in Histogram](stacks/largestRectangleInHistogram)      |
-| 10  | [Implement Queue Using Stacks](stacks/queueStack)                         |
-| 11  | [Pretty JSON](strings/prettyJSON)                                         |
-| 12  | [BST Iterator](trees/iterator)                                            |
-| 13  | [Buying and Selling Stocks I](arrays/sellingStocksI)                      |
-| 14  | [Buying and Selling Stocks II](arrays/sellingStocksII)                    |
-| 15  | [Buying and Selling Stocks III](arrays/sellingStocksIII)                  |
-| 16  | [Least Common Ancestor](trees/lca)                                        |
-| 17  | [Add Two Numbers as Linked Lists](linkedLists/addTwoNumbers)              |
-| 18  | [Reverse a Linked List Sublist](linkedLists/reverseSublist)               |
-| 19  | [Unique Paths in a Grid](arrays/uniquePaths)                              |
-| 20  | [Distinct Numbers in Window](arrays/distinctNumbers)                      |
-| 21  | [Longest Substring without Repeat](strings/longestSubstringWithoutRepeat) |
-| 22  | [Substring Concatenation](strings/substringConcatenation)                 |
-| 23  | [In-Place Shuffle](arrays/shuffle)                                        |
-| 24  | [Heap](utils/heap)                                                        |
-| 25  | [Anagram Checker](strings/anagramChecker)                                 |
-| 26  | [Wave Array](arrays/waveArray)                                            |
-| 27  | [Rotate Matrix](arrays/rotateMatrix)                                      |
-| 28  | [Max Product of 3](arrays/maxProductOf3)                                  |
-</details>
-
-| Day | Description                                                               |
-| ----| ------------------------------------------------------------------------- |
-| 1   | [Re-arrange Array](arrays/rearrange)                                      |
+| 32  | [Greatest Common Divisor](math/gcd)                                       |
+| 33  | [Calculate the Day of the Year](dates/dayOfYear)                          |
+| 34  | [`kth` to Last Node in a Linked List](linkedLists/kthToLastNode)          |
+| 35  | [Longest Common Substring](strings/longestCommonSubstring)                |
+| 36  | [Longest Common Subsequence](strings/longestCommonSubsequence)            |
+| 37  | [Simplified Regular Expression Matching](strings/reMatch)                 |
+| 38  | [Prime Sieve](math/primeNumbers)                                          |
+| 39  | [Tower of Hanoi](recursion/towerOfHanoi)                                  |
+| 40  | [Largest Rectangle in Histogram](stacks/largestRectangleInHistogram)      |
+| 41  | [Implement Queue Using Stacks](stacks/queueStack)                         |
+| 42  | [Pretty JSON](strings/prettyJSON)                                         |
+| 43  | [BST Iterator](trees/iterator)                                            |
+| 44  | [Buying and Selling Stocks I](arrays/sellingStocksI)                      |
+| 45  | [Buying and Selling Stocks II](arrays/sellingStocksII)                    |
+| 46  | [Buying and Selling Stocks III](arrays/sellingStocksIII)                  |
+| 47  | [Least Common Ancestor](trees/lca)                                        |
+| 48  | [Add Two Numbers as Linked Lists](linkedLists/addTwoNumbers)              |
+| 49  | [Reverse a Linked List Sublist](linkedLists/reverseSublist)               |
+| 50  | [Unique Paths in a Grid](arrays/uniquePaths)                              |
+| 51  | [Distinct Numbers in Window](arrays/distinctNumbers)                      |
+| 52  | [Longest Substring without Repeat](strings/longestSubstringWithoutRepeat) |
+| 53  | [Substring Concatenation](strings/substringConcatenation)                 |
+| 54  | [In-Place Shuffle](arrays/shuffle)                                        |
+| 55  | [Heap](utils/heap)                                                        |
+| 56  | [Anagram Checker](strings/anagramChecker)                                 |
+| 57  | [Wave Array](arrays/waveArray)                                            |
+| 58  | [Rotate Matrix](arrays/rotateMatrix)                                      |
+| 59  | [Max Product of 3](arrays/maxProductOf3)                                  |
+| 60  | [Re-arrange Array](arrays/rearrange)                                      |
