@@ -51,7 +51,8 @@ puzzle per day.
 | 31  | [Detect Cycle](linkedLists/detectCycle)                                   |
 </details>
 
-
+<details>
+<summary>February</summary>
 | Day | Description                                                               |
 | ----| ------------------------------------------------------------------------- |
 | 1   | [Greatest Common Divisor](math/gcd)                                       |
@@ -82,3 +83,8 @@ puzzle per day.
 | 26  | [Wave Array](arrays/waveArray)                                            |
 | 27  | [Rotate Matrix](arrays/rotateMatrix)                                      |
 | 28  | [Max Product of 3](arrays/maxProductOf3)                                  |
+</details>
+
+| Day | Description                                                               |
+| ----| ------------------------------------------------------------------------- |
+| 1   | [Re-arrange Array](arrays/rearrange)                                      |
