@@ -58,7 +58,7 @@ puzzle per day.
 | 41  | [Implement Queue Using Stacks](stacks/queueStack)                         |
 | 42  | [Pretty JSON](strings/prettyJSON)                                         |
 | 43  | [BST Iterator](trees/iterator)                                            |
-| 44  | [Buying and Selling Stocks I](arrays/sellingStocksI)                      |
+| 44  | [Buying and Selling Stocks I](greedy/sellingStocksI)                      |
 | 45  | [Buying and Selling Stocks II](arrays/sellingStocksII)                    |
 | 46  | [Buying and Selling Stocks III](arrays/sellingStocksIII)                  |
 | 47  | [Least Common Ancestor](trees/lca)                                        |
@@ -73,7 +73,7 @@ puzzle per day.
 | 56  | [Anagram Checker](strings/anagramChecker)                                 |
 | 57  | [Wave Array](arrays/waveArray)                                            |
 | 58  | [Rotate Matrix](arrays/rotateMatrix)                                      |
-| 59  | [Max Product of 3](arrays/maxProductOf3)                                  |
+| 59  | [Max Product of 3](greedy/maxProductOf3)                                  |
 | 60  | [Re-arrange Array](arrays/rearrange)                                      |
 | 61  | [Redundant Braces](stacks/redundantBraces)                                |
 | 62  | [Reverse the Words in a Sentence](strings/reverseWords)                   |
