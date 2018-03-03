@@ -75,3 +75,4 @@ puzzle per day.
 | 58  | [Rotate Matrix](arrays/rotateMatrix)                                      |
 | 59  | [Max Product of 3](arrays/maxProductOf3)                                  |
 | 60  | [Re-arrange Array](arrays/rearrange)                                      |
+| 61  | [Redundant Braces](stacks/redundantBraces)                                |
