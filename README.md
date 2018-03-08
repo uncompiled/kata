@@ -79,3 +79,4 @@ puzzle per day.
 | 62  | [Reverse the Words in a Sentence](strings/reverseWords)                   |
 | 63  | [Conway's Game of Life](games/gameOfLife)                                 |
 | 64  | [Excel Column Number](math/excelColumnNumber)                             |
+| 65  | [Parse Roman Numeral](math/parseRoman)                                    |
