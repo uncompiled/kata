@@ -80,3 +80,4 @@ puzzle per day.
 | 63  | [Conway's Game of Life](games/gameOfLife)                                 |
 | 64  | [Excel Column Number](math/excelColumnNumber)                             |
 | 65  | [Parse Roman Numeral](math/parseRoman)                                    |
+| 66  | [Integer to Roman Numeral](math/intToRoman)                               |
