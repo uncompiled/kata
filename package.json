@@ -15,7 +15,7 @@
   "author": "Chris Nguyen",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^22.4.4",
+    "jest": "^25.0.0",
     "prettier": "1.9.2",
     "prettier-standard": "^8.0.1",
     "standard": "^10.0.3"
